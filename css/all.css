@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
+body {
+    background-color: #070D1B;
+}
 
 h1 {
-    background-color: rgb(236, 14, 221);
+    color: #FFFFFF;
+    height: 200px;
 }
