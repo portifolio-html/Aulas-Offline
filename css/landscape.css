@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+@media (max-width: 922px) and (orientation: landscape){
+    h1 {
+        background-color: rgb(14, 236, 40);
+    }
+} 
+
