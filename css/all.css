@@ -6,9 +6,7 @@
     box-sizing: border-box;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22pt;
 }
-
 
 body {
     width: 100vw;
@@ -16,30 +14,21 @@ body {
 }
 
 header {
-    display: flex;
     width: 100%;
     height: 7vh;
     background-color: #070D1B;
-    align-items: center;
+}
+
+main {
+    width: 100%;
     justify-content: center;
 }
 
-header div {
-    width: 80%;
+.container-principal {
+    margin: 0 auto;
+    max-width: 920px;
 }
 
-header div div {
-    width: 100%;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
+section {
+    margin-top: 15px;
 }
-
-.logo, .menu{
-   width: 50px;
-}
-
-.logo span{
-    color: #FFC645;
-}
-

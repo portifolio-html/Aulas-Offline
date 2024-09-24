@@ -1,0 +1,5 @@
+menu: #070D1B
+fundo: #0A101E
+linha: #3F4551
+titulo: #FFC645
+texto: #FFF
