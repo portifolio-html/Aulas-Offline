@@ -141,8 +141,93 @@ div.graficos {
 }
 
 div.hability {
-    padding-bottom: 7px;
+    width: 100%;
+    padding-bottom: 20px;
 }
+
+div.rotulo {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.rotulo span:last-child {
+    color: #FFC645;
+}
+
+div.bar {
+    position: relative;
+    margin-top: 3px;
+    width: 100%;
+    height: 4px;
+    background-color: #3F4551;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+div.bar div.value {
+    position: absolute;
+    height: 4px;
+    background-color: #FFC645;
+    border-radius: 20px;
+}
+
+div.bar div.curso1 {
+    width: 75%;
+    animation: anime-bar1 1s ease-in-out;
+}
+
+div.bar div.curso2 {
+    width: 65%;
+    animation: anime-bar2 1s ease-in-out;
+}
+
+div.bar div.curso3 {
+    width: 85%;
+    animation: anime-bar3 1s ease-in-out;
+}
+
+div.bar div.curso4 {
+    width: 40%;
+    animation: anime-bar4 1s ease-in-out;
+}
+
+@keyframes anime-bar1 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 75%;
+    }
+}
+
+@keyframes anime-bar2 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 65%;
+    }
+}
+
+@keyframes anime-bar3 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 85%;
+    }
+}
+
+@keyframes anime-bar4 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 40%;
+    }
+}
+
+
 
 /* ###############################################
 formatação de experiência/educação
