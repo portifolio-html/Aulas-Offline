@@ -72,11 +72,10 @@ div.img img {
    ############################################### */
 
 
-div.cont-infor h1 {
+h1 {
     margin-top: 25px;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
-    font-size: 32pt;
+    font-size: 28pt;
 }
 
 div.cont-infor h3 {
@@ -86,70 +85,154 @@ div.cont-infor h3 {
     font-weight: 100;
 }
 
-div.cont-infor p {
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 20px;
-    line-height: 25px;
-    letter-spacing: 1px;
-    text-align: justify;
-}
-
-/* ###############################################
-   formatação da tabela de dados
-   ############################################### */
-
-   div.dados-pessoais, div.tabela-dados {
-    width: 100%;
-   }
-
-   table.tabela {
-    margin-top: 20px;
-    margin-bottom: 20px;
-   }
-
-   td.rotulo {
-    width: 100px;
-    height: 35px;
-   }
-
-   td:not(.rotulo, .dados){
-    width: 20px;
-   }
-
-   /* ###############################################
-   formatação de habilidades
-   ############################################### */
-
-   section {
-    width: 90%;
-    margin: 0 auto;
-   }
-
-   div.habilidade h1 {
-    margin-top: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
-    font-size: 32pt;
-   }
-
-   div.habilidade p {
-    font-family: Arial, Helvetica, sans-serif;
+p {
+    font-size: 11pt;
     margin-top: 25px;
     line-height: 25px;
     letter-spacing: 1px;
     text-align: justify;
     padding-bottom: 10px;
-   }
+    font-weight: 0;
+}
 
-   /* ###############################################
-   formatação de gráficos
-   ############################################### */
+/* ###############################################
+formatação da tabela de dados
+############################################### */
 
-   div.graficos {
+div.dados-pessoais, div.tabela-dados {
+    width: 100%;
+}
+
+table.tabela {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+td.rotulo {
+    width: 100px;
+    height: 35px;
+}
+
+td:not(.rotulo, .dados){
+    width: 20px;
+}
+
+/* ###############################################
+formatação de habilidades
+############################################### */
+
+section {
+    width: 100%;
+}
+
+div.cont-primaria {
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+/* ###############################################
+formatação de gráficos
+############################################### */
+
+div.graficos {
     margin-top: 20px;
     padding-bottom: 20px;
-   }
+}
 
-   div.hability {
+div.hability {
     padding-bottom: 7px;
-   }
+}
+
+/* ###############################################
+formatação de experiência/educação
+############################################### */
+
+div.infor-exper h2 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 18pt;
+}
+
+div.infor-exper h3 {
+    margin-top: 20px;
+    font-size: 18pt;
+}
+
+/* ###############################################
+formatação de Informações e contatos
+############################################### */
+
+div.infor-contato {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+div.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: .5px solid rgba(255, 255, 255, 0.151);
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+span.header {
+    margin-bottom: 10px;
+    font-size: 20pt;
+}
+
+div.texto span{
+    display: block;
+    margin-top: 3px;
+}
+
+/* ###############################################
+formatação do final da pagina
+############################################### */
+
+div.inf-encaminhar, div.redes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+span.encaminhar {
+    display: block;
+    margin: 20px 0;
+    font-size: 16pt;
+}
+
+div.redes {
+    margin-bottom: 40px;
+}
+
+div.rede {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: .5px solid rgba(255, 255, 255, 0.151);
+    border-radius: 100%;
+    margin: 0 10px;
+
+}
+
+div.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    height: 40px;
+    font-size: 10pt;
+}
+
+span.credito {
+    text-align: center;
+}
