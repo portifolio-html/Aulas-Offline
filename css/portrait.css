@@ -1,3 +1,155 @@
 @charset "UTF-8";
 
+main {
+width: 100%;
+margin: 0 auto;
+}
 
+.container-principal {
+    width: 100%;
+}
+
+/* ###############################################
+   inicio da criação do cabeçalho com a linha guia 
+   ############################################### */
+
+div.header, div.linha-header {
+    display: flex;
+    justify-content: center;
+}
+
+div.header span {
+    font-size: 20pt;
+    color: #FFC645;
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+}
+
+div.linha-header div {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 45%;
+    height: 3px;
+    background-color: #3F4551;
+    margin-top: 7px;
+    margin-bottom: 10px;
+
+    
+}
+
+div.linha-header div::after {
+    content: "";
+    position: absolute;
+    width: 45%;
+    height: 3px;
+    background-color: #FFC645;
+}
+
+/* ###############################################
+   formatação da imagen de perfil 
+   ############################################### */ 
+
+div.img-perfil, div.img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+div.img img {
+    margin-top: 25px;
+    width: 100%;
+    border-radius: 20px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    opacity: 50%;
+    
+}
+
+/* ###############################################
+   formatação da informações do perfil 
+   ############################################### */
+
+
+div.cont-infor h1 {
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 32pt;
+}
+
+div.cont-infor h3 {
+    margin-top: 20px;
+    color: #FFC645;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+div.cont-infor p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+/* ###############################################
+   formatação da tabela de dados
+   ############################################### */
+
+   div.dados-pessoais, div.tabela-dados {
+    width: 100%;
+   }
+
+   table.tabela {
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+
+   td.rotulo {
+    width: 100px;
+    height: 35px;
+   }
+
+   td:not(.rotulo, .dados){
+    width: 20px;
+   }
+
+   /* ###############################################
+   formatação de habilidades
+   ############################################### */
+
+   section {
+    width: 90%;
+    margin: 0 auto;
+   }
+
+   div.habilidade h1 {
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 32pt;
+   }
+
+   div.habilidade p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-align: justify;
+    padding-bottom: 10px;
+   }
+
+   /* ###############################################
+   formatação de gráficos
+   ############################################### */
+
+   div.graficos {
+    margin-top: 20px;
+    padding-bottom: 20px;
+   }
+
+   div.hability {
+    padding-bottom: 7px;
+   }
