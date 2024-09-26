@@ -150,15 +150,22 @@ div.rotulo {
     justify-content: space-between;
 }
 
+div.rotulo span:first-child {
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
 div.rotulo span:last-child {
     color: #FFC645;
 }
 
 div.bar {
+    display: flex;
+    align-items: center;
     position: relative;
     margin-top: 3px;
     width: 100%;
-    height: 4px;
+    height: 3px;
     background-color: #3F4551;
     border-radius: 20px;
     overflow: hidden;
@@ -166,7 +173,7 @@ div.bar {
 
 div.bar div.value {
     position: absolute;
-    height: 4px;
+    height: 3px;
     background-color: #FFC645;
     border-radius: 20px;
 }
@@ -182,13 +189,33 @@ div.bar div.curso2 {
 }
 
 div.bar div.curso3 {
-    width: 85%;
+    width: 65%;
     animation: anime-bar3 1s ease-in-out;
 }
 
 div.bar div.curso4 {
-    width: 40%;
+    width: 50%;
     animation: anime-bar4 1s ease-in-out;
+}
+
+div.bar div.curso5 {
+    width: 38%;
+    animation: anime-bar5 1s ease-in-out;
+}
+
+div.bar div.curso6 {
+    width: 30%;
+    animation: anime-bar6 1s ease-in-out;
+}
+
+div.bar div.curso7 {
+    width: 20%;
+    animation: anime-bar7 1s ease-in-out;
+}
+
+div.bar div.curso8 {
+    width: 20%;
+    animation: anime-bar8 1s ease-in-out;
 }
 
 @keyframes anime-bar1 {
@@ -214,7 +241,7 @@ div.bar div.curso4 {
         width: 0;
     }
     100% {
-        width: 85%;
+        width: 65%;
     }
 }
 
@@ -223,7 +250,41 @@ div.bar div.curso4 {
         width: 0;
     }
     100% {
-        width: 40%;
+        width: 50%;
+    }
+}
+
+@keyframes anime-bar5 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 38%;
+    }
+}
+
+@keyframes anime-bar6 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 30%;
+    }
+}
+@keyframes anime-bar7 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 20%;
+    }
+}
+@keyframes anime-bar8 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 20%;
     }
 }
 
@@ -233,8 +294,62 @@ div.bar div.curso4 {
 formatação de experiência/educação
 ############################################### */
 
+div.header-exper, div.header-edu {
+    margin-bottom: 20px;
+}
+
+div.infor-exper {
+    position: relative;
+    margin-left: 20px;
+    padding-left: 35px;
+    overflow: hidden;
+}
+
+div.infor-exper::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 0px;
+    top: 10px;
+    background-color: #050c18;
+    border-radius: 100%;
+    border: .1px solid #ffffff40;
+}
+
+div.infor-exper::before {
+    content: "";
+    position: absolute;
+    width: .1px;
+    height: 100%;
+    left: 5px;
+    top: 0px;
+    background-color: #ffffff40;
+}
+
+div.exper-1::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 0px;
+    top: 10px;
+    background-color: #FFC645;
+    border-radius: 100%;
+}
+
+div.exper-1::before {
+    content: "";
+    position: absolute;
+    width: .1px;
+    height: 100%;
+    left: 5px;
+    top: 10px;
+    background-color: #ffffff40;
+}
+
 div.infor-exper h2 {
-    margin-top: 20px;
+    
     margin-bottom: 15px;
     font-size: 18pt;
 }
@@ -266,14 +381,16 @@ div.icon {
     margin-right: 20px;
 }
 
-span.header {
-    margin-bottom: 10px;
-    font-size: 20pt;
-}
-
-div.texto span{
+div.texto span:not(.header){
+    font-size: 10pt;
     display: block;
     margin-top: 3px;
+    letter-spacing: 2px;
+}
+
+span.header {
+    margin-bottom: 10px;
+    font-size: 14pt;
 }
 
 /* ###############################################
