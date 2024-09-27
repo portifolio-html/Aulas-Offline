@@ -29,7 +29,8 @@ main {
 section.habilidades,
 section.informacoes-contatos, 
 section.experiencias,
-section.educacoes {
+section.educacoes,
+section.hobbies {
     background-color: #050c18;
 }
 

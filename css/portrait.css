@@ -322,7 +322,7 @@ div.infor-exper::after {
     top: 10px;
     background-color: #050c18;
     border-radius: 100%;
-    border: .1px solid #A9ADB8;
+    border: 2px solid #13203c;
 }
 
 div.infor-exper::before {
@@ -330,9 +330,9 @@ div.infor-exper::before {
     position: absolute;
     width: .1px;
     height: 100%;
-    left: 5px;
+    left: 6px;
     top: 0px;
-    background-color: #A9ADB8;
+    background-color: #13203c;
 }
 
 div.exper-1::after {
@@ -351,9 +351,9 @@ div.exper-1::before {
     position: absolute;
     width: .1px;
     height: 100%;
-    left: 5px;
+    left: 6px;
     top: 10px;
-    background-color: #A9ADB8;
+    background-color: #13203c;
 }
 
 div.infor-exper h2 {
@@ -384,7 +384,7 @@ div.icon {
     align-items: center;
     width: 50px;
     height: 50px;
-    border: .5px solid #A9ADB8;
+    border: .5px solid #13203c;
     border-radius: 100%;
     margin-right: 20px;
 }
@@ -435,3 +435,88 @@ div.footer {
 span.credito {
     text-align: center;
 }
+
+/* ###############################################
+formatação de hobbies
+############################################### */
+
+div.hobbies {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+div.cont-hobbies {
+    display: flex;
+    max-width: 425px;
+}
+
+span.hobbie {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    min-width: 130px;
+    height: 350px;
+    border: .1px solid #13203c;
+    margin: 0px 5px;
+}
+
+span.hobbie {
+
+}
+
+div.infor-hobbie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.text-hobbie {
+    margin: 0 10px;
+}
+
+div.icon-hobbie > img {
+    margin-bottom: 35px;
+}
+
+div.header-hobbie > span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+div.text-hobbie > p {
+    font-size: 10px;
+    line-height: normal;
+    text-align: left;
+}
+
+/* ###############################################
+formatação de menu nav-bars
+############################################### */
+
+ul.menu {
+    display: flex;
+    margin-top: 20px;
+}
+
+ul.menu li {
+    width: 10px;
+    height: 10px;
+    border: 1px solid white;
+    margin: 0 7px;
+    overflow: hidden;
+}
+
+ul.menu > li > label {
+    cursor: pointer;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+}
+
