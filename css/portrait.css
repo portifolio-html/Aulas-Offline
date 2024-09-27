@@ -459,15 +459,11 @@ span.hobbie {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 130px;
     min-width: 130px;
+    max-width: 180px;
     height: 350px;
     border: .1px solid #13203c;
     margin: 0px 5px;
-}
-
-span.hobbie {
-    left: -420px;
 }
 
 div.infor-hobbie {
@@ -482,6 +478,7 @@ div.text-hobbie {
 }
 
 div.icon-hobbie > img {
+    width: 80px;
     margin-bottom: 35px;
 }
 
@@ -518,5 +515,13 @@ ul.menu > li > label {
     position: absolute;
     width: 10px;
     height: 10px;
+}
+
+/* ###############################################
+formatação de menu nav-bars
+############################################### */
+
+input#musica:checked ~ span.hobbie-1 {
+    width: 200px;
 }
 
