@@ -199,7 +199,7 @@ div.bar div.curso4 {
 }
 
 div.bar div.curso5 {
-    width: 38%;
+    width: 35%;
     animation: anime-bar5 1s ease-in-out;
 }
 
@@ -259,7 +259,7 @@ div.bar div.curso8 {
         width: 0;
     }
     100% {
-        width: 38%;
+        width: 35%;
     }
 }
 
@@ -287,8 +287,6 @@ div.bar div.curso8 {
         width: 20%;
     }
 }
-
-
 
 /* ###############################################
 formatação de experiência/educação
