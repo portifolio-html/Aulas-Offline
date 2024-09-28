@@ -461,9 +461,11 @@ span.hobbie {
     align-items: center;
     min-width: 130px;
     max-width: 180px;
-    height: 350px;
+    height: 300px;
     border: .1px solid #13203c;
     margin: 0px 5px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
 }
 
 div.infor-hobbie {
@@ -541,24 +543,5 @@ formatação de menu nav-bars
     left: -560px;
 }
 
-#button1:checked ~ label#lb1 {
-    background-color: aliceblue;
-}
-
-#button2:checked ~ span.hobbie {
-    left: -140px;
-}
-
-#button3:checked ~ span.hobbie {
-    left: -280px;
-}
-
-#button4:checked ~ span.hobbie {
-    left: -420px;
-}
-
-#button5:checked ~ span.hobbie {
-    left: -560px;
-}
 
 
