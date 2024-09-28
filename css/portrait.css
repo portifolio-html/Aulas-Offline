@@ -521,7 +521,44 @@ ul.menu > li > label {
 formatação de menu nav-bars
 ############################################### */
 
-input#musica:checked ~ span.hobbie-1 {
-    width: 200px;
+#button1:checked ~ span.hobbie {
+    left: 0px;
 }
+
+#button2:checked ~ span.hobbie {
+    left: -140px;
+}
+
+#button3:checked ~ span.hobbie {
+    left: -280px;
+}
+
+#button4:checked ~ span.hobbie {
+    left: -420px;
+}
+
+#button5:checked ~ span.hobbie {
+    left: -560px;
+}
+
+#button1:checked ~ label#lb1 {
+    background-color: aliceblue;
+}
+
+#button2:checked ~ span.hobbie {
+    left: -140px;
+}
+
+#button3:checked ~ span.hobbie {
+    left: -280px;
+}
+
+#button4:checked ~ span.hobbie {
+    left: -420px;
+}
+
+#button5:checked ~ span.hobbie {
+    left: -560px;
+}
+
 
