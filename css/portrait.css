@@ -60,6 +60,7 @@ div.img-perfil, div.img {
 div.img img {
     margin-top: 25px;
     width: 100%;
+    max-width: 500px;
     border-radius: 20px;
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
