@@ -79,6 +79,12 @@ h1 {
     font-size: 28pt;
 }
 
+h2 {
+    margin-top: 25px;
+    font-weight: 100;
+    font-size: 18pt;
+}
+
 div.cont-infor h3 {
     margin-top: 20px;
     color: #FFC645;

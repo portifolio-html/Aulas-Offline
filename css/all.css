@@ -30,7 +30,8 @@ section.habilidades,
 section.informacoes-contatos, 
 section.experiencias,
 section.educacoes,
-section.hobbies {
+section.hobbies,
+section.parte:not(.inicio, .parte-1) {
     background-color: #050c18;
 }
 

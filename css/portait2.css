@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+/*###############################################
+formatação para imagens
+#################################################*/
+
+div.absoluta {
+    position: relative;
+    display: block;
+    width: 75%;
+    max-width: 350px;
+    height: 380px;
+    margin: 40px auto;
+}
+
+div.img-all {
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    font-size: 30pt;
+}
+
+div.img1 {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 250px;
+    height: 310px;
+    border: 1px solid white;
+}
+
+div.img2 {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    width: 180px;
+    height: 240px;
+    border: 1px solid white;
+}
+
+section.parte-2 > div.cont-primaria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+div.slides {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 500px;
+    height: 450px;
+}
+
+div.slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 33%;
+    height: 95%;
+    border: .1px solid wheat;
+    margin: 5px 3px;
+    padding: 0 10px;
+    border-radius: 20px;
+}
+
+div.slide > p {
+    text-align: left;
+    line-height: normal;
+}
+
+h2.slide {
+    font-size: 36pt;
+    font-weight: 700;
+}
+
+p.centro {
+    text-align: center;
+    max-width: 500px;
+    font-size: 10pt;
+}
+
+span.slide-header {
+    font-size: 18pt;
+    font-weight: 600;
+    margin-top: 40px;
+}
