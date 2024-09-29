@@ -31,7 +31,7 @@ section.informacoes-contatos,
 section.experiencias,
 section.educacoes,
 section.hobbies,
-section.parte:not(.inicio, .parte-1) {
+section.parte:not(.inicio, .parte-1, .parte-4) {
     background-color: #050c18;
 }
 
