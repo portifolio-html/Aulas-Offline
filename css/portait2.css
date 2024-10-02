@@ -135,6 +135,8 @@ div.img-cursos > img {
     div.img-cursos > img {
         width: 280px;
     }
+
+    
 }
 
 
@@ -164,6 +166,11 @@ div.slide-all {
     margin: 0 15px;
     animation: slides 5s infinite;
     translate: 5s;
+    overflow: hidden;
+}
+
+div.slide-all > div > img {
+    width: 450px;
 }
 
 div.slides-avancado > input {
