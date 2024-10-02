@@ -131,7 +131,7 @@ div.img-cursos > img {
     width: 200px;
 }
 
-@media screen and (max-width: 500px){
+@media screen {
     div.img-cursos > img {
         width: 280px;
     }
@@ -156,22 +156,17 @@ div.slides-avancado {
 
 div.slide-all {
     display: none;
-    justify-content: center;
-    align-items: center;
     position: absolute;
-    width: 80%;
-    height: 350px;
-    background-color: #1c222e;
     border-radius: 10px;
     margin: 0 15px;
     animation: slides 5s infinite;
     translate: 5s;
-    overflow: hidden;
 }
 
 div.slide-all > div > img {
-    width: 450px;
+    width: 350px;
 }
+
 
 div.slides-avancado > input {
     display: none;
@@ -205,13 +200,7 @@ div.slides-avancado > input {
     animation: slide 5s infinite;
     transition: 2s ease-in-out;
 }
-#btn5:checked ~ div.slide-5 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    animation: slide 5s infinite ;
-    transition: 2s ease-in-out;
-}
+
 
 @keyframes slide{
     0% {
